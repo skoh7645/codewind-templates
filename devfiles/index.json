@@ -1,66 +1,17 @@
-[
 {
-  "displayName":"WebSphere Liberty MicroProfile®",
-  "description":"Eclipse MicroProfile® on Websphere Liberty",
-  "language":"java",
-  "projectType":"liberty",
-  "location":"https://github.com/microclimate-dev2ops/javaMicroProfileTemplate",
-  "links": {"self":"/devfiles/javaMicroProfileTemplate/devfile.yaml" }
+	"Stacks": [
+		{
+			"displayName": "Appsody Node.js simple template",
+			"description": "Runtime for Node.js applications",
+			"language": "nodejs",
+			"projectType": "appsodyExtension",
+			"projectStyle": "Appsody",
+			"location": "file:///Users/sandy.koh@ibm.com/.appsody/stacks/dev.local/nodejs.v0.3.3.templates.simple.tar.gz",
+			"Links": [
+				{
+					"self": "/devfiles/nodejs/devfile.yaml"
+				}
+			]
+		}
+	]
 }
-,{
-  "displayName":"Spring Boot®",
-  "description":"Spring Boot® using IBM Java",
-  "language":"java",
-  "projectType":"spring",
-  "location":"https://github.com/microclimate-dev2ops/springJavaTemplate",
-  "links": {"self":"/devfiles/springJavaTemplate/devfile.yaml" }
-}
-,{
-  "displayName":"Python",
-  "description":"HelloWorld microservice written in python",
-  "language":"python",
-  "projectType":"docker",
-  "location":"https://github.com/microclimate-dev2ops/SVTPythonTemplate",
-  "links": {"self":"/devfiles/pythonTemplate/devfile.yaml" }
-}
-,{
-  "displayName":"Node.js Express",
-  "description":"Cloud-ready Node.js Express sample application",
-  "language":"nodejs",
-  "projectType":"nodejs",
-  "location":"https://github.com/microclimate-dev2ops/nodeExpressTemplate",
-  "links": {"self":"/devfiles/nodeExpressTemplate/devfile.yaml" }
-}
-,{
-  "displayName":"Swift",
-  "description":"Sample for building a Swift microservice",
-  "language":"swift",
-  "projectType":"swift",
-  "location":"https://github.com/microclimate-dev2ops/swiftTemplate",
-  "links": {"self":"/devfiles/swiftTemplate/devfile.yaml" }
-}
-,{
-  "displayName":"Go",
-  "description":"Sample microservice for simple go app",
-  "language":"go",
-  "projectType":"docker",
-  "location":"https://github.com/microclimate-dev2ops/microclimateGoTemplate",
-  "links": {"self":"/devfiles/goTemplate/devfile.yaml" }
-}
-,{
-  "displayName":"Lagom Java",
-  "description":"Sample for building Lagom Reactive microservice in Java",
-  "language":"java",
-  "projectType":"docker",
-  "location":"https://github.com/microclimate-dev2ops/lagomJavaTemplate",
-  "links": {"self":"/devfiles/lagomJavaTemplate/devfile.yaml" }
-}
-,{
-  "displayName":"Open Liberty",
-  "description":"Template for building an Open Liberty microservice in Java",
-  "language":"java",
-  "projectType":"docker",
-  "location":"https://github.com/microclimate-dev2ops/openLibertyTemplate",
-  "links": {"self":"/devfiles/openLibertyTemplate/devfile.yaml" }
-}
-]
